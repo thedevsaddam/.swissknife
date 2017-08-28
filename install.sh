@@ -31,10 +31,10 @@ if hash nvim 2>/dev/null; then
 fi
 
 # terminal patched font
-echo -e "\n\033[32mInstalling powerline patched fonts\033[m";
-git clone https://github.com/powerline/fonts.git $HOME/powerline-fonts;
-$HOME/powerline-fonts/install.sh;
-rm -rf $HOME/powerline-fonts;
+# echo -e "\n\033[32mInstalling powerline patched fonts\033[m";
+# git clone https://github.com/powerline/fonts.git $HOME/powerline-fonts;
+# $HOME/powerline-fonts/install.sh;
+# rm -rf $HOME/powerline-fonts;
 
 # git config
 if hash git 2>/dev/null; then
